@@ -1,0 +1,15 @@
+Projemize Database First yaklaþýmý ile veritabanýmýzý ekliyoruz.
+Önelikli olarak projeyi EF CORE'a uygun hale getirmek için paketlerimizi yükleyelim:
+
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.Tools
+
+Scaffold-DbContext 'Server=(localdb)\MSSQLLocalDB; Database=Northwnd; Trusted_Connection=True' Microsoft.EntityFrameworkCore.SqlServer -ContextDir Contexts -OutputDir Entities
+
+
+Linq (Language Integrated Query)
+Yazýlým projesi geliþtirilen dili terk etmeden, proje içinde çeþitli veri kaynaklarýna sorgular yapma imkaný saðlayan ortak bir teknolojidir.
+
+Lambda Expression
+Lambda ifadeleri özellikle Linq sorgularýnda kýsý ve öz ifadeler yazarak daha okunabilir ve anlaþýlýr kod yazmayý saðlar.
